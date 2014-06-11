@@ -12,14 +12,14 @@ use File::Basename;
 #---------------------------------------------------------------------
 #  Global vars
 #---------------------------------------------------------------------
-my $glade = Gtk2::GladeXML->new('m64.glade');
+my $glade = Gtk2::GladeXML->new('m64pl.glade');
 my @files;
 my $selected_game;
 
 #---------------------------------------------------------------------
 #  Initialization
 #---------------------------------------------------------------------
-@files = sort(File::Find::Rule->name("*.z64")->in("/home/share/roms/n64/data"));
+@files = sort(File::Find::Rule->name("*.z64")->in("games"));
 $selected_game = $files[0];
 
 #---------------------------------------------------------------------
