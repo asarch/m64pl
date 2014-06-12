@@ -1,4 +1,4 @@
 m64pl
 =====
 
-Front-end for mupen64plus written in Perl using Gtk+ 2.x libraries.
+Front-end for mupen64plus written in Perl using GTK+ 2.x libraries.
